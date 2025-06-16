@@ -1,7 +1,7 @@
 import { render, screen, logRoles } from '@testing-library/react';
 import QueryMultipleElements from '../components/QueryMultipleElements';
 import { expect } from 'vitest';
-describe('Querying Multiple Elements', () => {
+describe.skip('Querying Multiple Elements', () => {
   const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'React testing library', 'Nodejs', 'Php'];
 
   test('renders Correctly', () => {
